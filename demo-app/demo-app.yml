@@ -1,0 +1,17 @@
+---
+generic-info: Available to all profiles
+
+---
+spring:
+  profiles: dev
+app-env: development
+
+---
+spring:
+  profiles: prod
+app-env: production
+
+---
+spring:
+  profiles: default
+app-env: undefined
